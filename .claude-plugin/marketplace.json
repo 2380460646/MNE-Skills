@@ -1,0 +1,26 @@
+{
+  "name": "MNE-skills",
+  "owner": {
+    "name": " ",
+    "email": " "
+  },
+  "metadata": {
+    "description": "MNE-skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "MNE-skills",
+      "description": "Collection of MNE skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./autoreject",
+        "./mne-connectivity",
+        "./mne-core",
+        "./mne-icalabel",
+        "./mne-microstates"
+      ]
+    }
+  ]
+}
