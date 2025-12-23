@@ -49,12 +49,11 @@ EEG microstate analysis:
 
 ### Installing Skills
 
-
+1. Open Claude Code and add Marketplaces
 ```bash
 /plugin marketplace add 2380460646/MNE-Skills
 ```
-1. Open Claude Code
-2. 
+2. Open plugin
 ```bash
 /plugin
 ```
