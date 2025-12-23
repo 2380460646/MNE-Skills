@@ -49,23 +49,19 @@ EEG microstate analysis:
 
 ### Installing Skills
 
-This repository provides pre-packaged `.skill` files for Claude Code. To install:
 
-1. Download the `.skill` files from the `dist/` directory
-2. Install them using Claude Code:
-   ```bash
-   claude install <skill-file>.skill
-   ```
-
-Or install all skills at once:
 ```bash
-claude install dist/mne-core.skill
-claude install dist/mne-connectivity.skill
-claude install dist/mne-icalabel.skill
-claude install dist/autoreject.skill
-claude install dist/mne-microstates.skill
+/plugin marketplace add 2380460646/MNE-Skills
 ```
-
+1. Open Claude Code
+2. 
+```bash
+/plugin
+```
+3. Tab Select Marketplaces
+4. Select MNE-skills
+5. Select Browse and install plugins
+6. Click MNE-skills
 ### Installing Python Dependencies
 
 Each skill requires MNE-Python and its dependencies:
